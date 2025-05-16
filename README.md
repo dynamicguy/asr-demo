@@ -1,5 +1,5 @@
 # asr-demo
-realtime ASR pipeline
+Realtime Automatic Speech Recognition (ASR) pipeline
 
 ## download models
 
