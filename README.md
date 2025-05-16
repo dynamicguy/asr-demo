@@ -1,6 +1,9 @@
 # asr-demo
 Realtime Automatic Speech Recognition (ASR) pipeline
 
+## Sequence Diagram
+![sequence diagram](asr-sequence-diagram.png)
+
 ## download models
 
     mkdir ./models && \
