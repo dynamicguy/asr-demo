@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vosk ASR Client</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    #transcript { white-space: pre-wrap; font-size: 1.2em; }
+    #status { color: green; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Vosk WebSocket ASR Client</h1>
+  <button id="startBtn">Start Recognition</button>
+  <p id="status">Idle</p>
+  <div id="transcript"></div>
+
+  <script src="client.js"></script>
+</body>
+</html>
