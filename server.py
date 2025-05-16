@@ -5,7 +5,7 @@ import json
 from vosk import Model, KaldiRecognizer
 import time
 
-MODEL_PATH = "/models/vosk-model-small-en-us-0.15"
+MODEL_PATH = "./models/vosk-model-small-en-us-0.15"
 model = Model(MODEL_PATH)
 
 TURN_TIMEOUT = 2.0  # seconds of silence to trigger end-of-turn

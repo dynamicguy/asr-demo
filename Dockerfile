@@ -8,8 +8,8 @@ RUN apt-get update && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Download Vosk model
-RUN mkdir /models && \
-    cd /models && \
+RUN mkdir /app/models && \
+    cd /app/models && \
     wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip && \
     unzip vosk-model-small-en-us-0.15.zip && \
     rm vosk-model-small-en-us-0.15.zip
